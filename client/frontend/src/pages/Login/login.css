@@ -1,0 +1,12 @@
+.cursor--pointer {
+  cursor: pointer;
+}
+
+.show--pass {
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.show--pass:hover {
+  color: orange;
+}
