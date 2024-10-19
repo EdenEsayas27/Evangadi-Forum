@@ -57,7 +57,7 @@ const AskQuestion = () => {
 
       // Set success message and loading
       setSuccessMessage(
-        'Your Question Has Been Successfully Posted. Redirecting to Home Page....'
+        'Your Question Has Been Successfully Posted.'
       );
       setLoading(true); // Start loading to display spinner
 
