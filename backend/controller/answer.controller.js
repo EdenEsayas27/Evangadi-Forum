@@ -38,7 +38,7 @@ const answerForQuestion = async function (req, res) {
     });
   }
 };
-
+//answer posted to the choosen question
 // Post an answer to a question
 const postAnswer = async function (req, res) {
   const { question_id, answer } = req.body;
