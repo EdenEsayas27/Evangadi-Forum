@@ -65,7 +65,7 @@ const AskQuestion = () => {
       setTimeout(() => {
         setLoading(false);
         setSuccessMessage('');
-        navigate('/home'); // Navigate back to the homepage
+        // Navigate back to the homepage
         window.location.reload(); // Optionally reload the page
       }, 4000);
     } catch (error) {
